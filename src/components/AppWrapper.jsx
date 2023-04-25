@@ -1,0 +1,5 @@
+const AppWrapper = ({ children }) => {
+  return <div className="flex h-screen w-screen">{children}</div>;
+};
+
+export default AppWrapper;
